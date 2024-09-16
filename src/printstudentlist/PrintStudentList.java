@@ -26,10 +26,10 @@ public class PrintStudentList {
         s3.setName("james");
         s3.setId(3);
         //s1 - name , sid - not in array - save  object
-        Student[] list = new Student[3]; //  array of objects
+        Student[] list = new Student[2]; //  array of objects
         list[0]=s1;
         list[1]=s2;
-        list[2]=s3; //saved the objects in array
+        //list[2]=s3; //saved the objects in array
         //print 
         for(int i=0;i<list.length;i++)
         {
