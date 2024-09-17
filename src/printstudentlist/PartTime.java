@@ -10,4 +10,5 @@ package printstudentlist;
  */
 public class PartTime {
     private int sid;
+    private String schedule;
 }
