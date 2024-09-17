@@ -35,6 +35,7 @@ public class PrintStudentList {
         {
           System.out.println(list[i].getName()+ " "+list[i].getId());  
         }
+        
     }
     
 }

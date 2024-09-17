@@ -14,7 +14,7 @@ public class Student
     // model the student details
     private String name; // public or private
     private int id; // Encapsulation principle 
-
+    private int semester;
     /**
      * @return the name
      */
@@ -41,5 +41,19 @@ public class Student
      */
     public void setId(int id) {
         this.id = id;
+    }
+
+    /**
+     * @return the semester
+     */
+    public int getSemester() {
+        return semester;
+    }
+
+    /**
+     * @param semester the semester to set
+     */
+    public void setSemester(int semester) {
+        this.semester = semester;
     }
 }
