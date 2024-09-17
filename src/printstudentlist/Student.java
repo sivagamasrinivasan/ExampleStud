@@ -16,6 +16,7 @@ public class Student
     private int id; // Encapsulation principle 
     private int semester;
     private float fee;
+    private String CourseDetails;
     /**
      * @return the name
      */
